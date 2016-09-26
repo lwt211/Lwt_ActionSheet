@@ -2,13 +2,13 @@
 
 Pod::Spec.new do |s|
   s.name         = "Lwt_ActionSheet"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "At the bottom of the menu"
   s.homepage     = "https://github.com/lwt211/Lwt_ActionSheet"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Li Wentao" => "https://github.com/lwt211/Lwt_ActionSheet" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/lwt211/Lwt_ActionSheet.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/lwt211/Lwt_ActionSheet.git", :tag => "1.0.1" }
   s.source_files  = "Lwt_ActionSheet/**/*.{h,m}"
   # s.resources = "Lwt_ActionSheet/**/*.png", "Lwt_ActionSheet/**/*.xib"
   s.requires_arc = true
